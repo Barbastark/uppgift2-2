@@ -52,4 +52,48 @@ header {
 	color: white;
 }
 
+p {color: grey;}
+
+h1, h2, h3 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.8em;
+	color: #3F6931;}
+
+a {color: darkred;}
+
+a:hover {
+	color: #3F6931;
+	font-style: italic;
+}
+.summary {
+	width: 100%;
+}
+
+.preamble {
+	width: 70%;
+	
+}
+
+.main supporting {
+	width: 70%;
+}
+
+.explanation {
+	width:70%;
+}
+
+.participation {
+	width:70%;
+}
+
+.benefits {
+	width:70%;
+}
+
+.requirements {
+	width:70%;
+}
+
+
+
 
