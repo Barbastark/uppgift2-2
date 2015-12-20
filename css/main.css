@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+
+#css-zen-garden {
+	margin:0;
+	padding:0;
+	
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.page-wrapper {
+	width: 70%;
+	min-width: 960px;
+	margin:0 auto;
+	background-color: #fff;
+	line-height: 1.5em;
+}
+
+header {
+	
+	background-image: linear-gradient(to top, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/photo-1447752875215-b2761acb3c5d.jpg);
+	color:white;
+	height:500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 1px solid white;
+	border-radius: 30px 50% 0 0;
+	margin-top: 20px;
+	padding-top: 80px;
+	
+}
+
+.intro h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 5em;
+	text-shadow: 4px 2px 4px #fff;
+	padding-left: 8%;
+	color: white;
+}
+
+.intro h2 {
+	text-align: right;
+	padding-right: 10%;
+	font-family: arial, helvetica, sans-serif;
+	color: white;
+}
+
+
