@@ -10,56 +10,63 @@
 abbr[title] {
   border-bottom: none !important;
   cursor: inherit !important;
-  text-decoration: none !important;
   font-weight: bold;
+  text-decoration: none !important;
 }
 
 .page-wrapper {
-	width: 70%;
-	min-width: 960px;
-	margin:0 auto;
 	background-color: #fff;
 	line-height: 1.5em;
+	margin:0 auto;
+	min-width: 960px;
+	width: 70%;
 }
 
 header {
 	
-	background-image: linear-gradient(to top, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
-					 ,url(../img/Untitled.png);
+	
 	background-image: -webkit-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
-					 ,url(../img/Untitled.png);
-	color:white;
-	height:500px;
+					 ,url(../img/Untitled.jpg);
+	background-image: -moz-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-image: -o-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-image: linear-gradient(to top, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-top: 1px solid white;
 	border-radius: 30px 50% 0 0;
+	border-top: 1px solid white;
+	color:white;
+	height:500px;
 	margin-top: 20px;
 	padding-top: 80px;
 	
 }
 
 .intro h1 {
+	color: white;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 5em;
-	text-shadow: 4px 2px 4px #fff;
 	padding-left: 8%;
-	color: white;
+	text-shadow: 4px 2px 4px #fff;
+	
+	
 }
 
 .intro h2 {
-	text-align: right;
-	padding-right: 10%;
-	font-family: arial, helvetica, sans-serif;
 	color: white;
+	font-family: arial, helvetica, sans-serif;
+	padding-right: 10%;
+	text-align: right;
 }
 
- p {color: grey;}
+p {color: grey;}
 
 h1, h2, h3 {
+	color: #3F6931;
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.8em;
-	color: #3F6931;
 	}
 
 a {color: darkred;}
@@ -74,28 +81,30 @@ li {
 	padding-bottom: 10px;}
 
 ul a {
+	font-size: 1.2em;
+	margin-bottom: 50px;
 	text-decoration: none;
-	 margin-bottom: 50px;
-	 font-size: 1.2em;}
+	}
+	 
 .summary {
-	width: 100%;
 	margin-top: 60px;
-	
-	
+	width: 100%;
 }
 
 .summary p {
 	color: #3F6931;
-	
 	font-weight: bold;
 	}
+	
 .summary a {
 	display: inline-block;
-	font-weight: normal;
 	font-size: 1.5em;
-	text-decoration: none;
+	font-weight: normal;
 	text-align: center;
+	text-decoration: none;
+	
 	}
+	
 .summary a::before {
 	content: url(../img/Button-Download-icon.png);
 	}
@@ -106,32 +115,31 @@ ul a {
 .benefits,
 .requirements,
 .explanation {
-	width:67%;
 	background-color: #fff;
 	border: 1px solid lightgrey;
-	padding: 20px;
 	border-radius: 5px;
-	box-shadow: 5px 5px 5px lightgrey; 
+	box-shadow: 5px 5px 5px lightgrey;
 	margin-top: 20px;
+	padding: 20px;
+	width:67%;
 }
 
 .wrapper {
-	background-color: #fff;
-	position: absolute;
-	float:right;
-    height: 750px;
-	top: 750px;
-    right: 15%;
-    width: 25%;
-    border: 1px solid lightgrey;
-	max-width:250px;
-	border-radius: 5px;
-	padding-right:20px;
-	padding-bottom: 20px;
-	box-shadow: 5px 5px 5px lightgrey;
 	-webkit-animation: breath 5s infinite; /* Chrome, Safari, Opera */
     animation: breath 5s infinite;
-	
+	background-color: #fff;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px lightgrey;
+	float:right;
+	height: 750px;
+	max-width:250px;
+	padding-bottom: 20px;
+	padding-right:20px;
+	position: absolute;
+	right: 15%;
+	top: 750px;
+    width: 25%;
 }
 
 .wrapper h3 {
@@ -140,16 +148,16 @@ ul a {
 }
 
 .zen-resources {
-	float: left;
-	border: 1px solid lightgrey;
-	margin-top: 100px;
-	border-radius: 10px;
-	width: 100%;
-	padding-right:20px;
-	padding-bottom: 20px;
-	box-shadow: 5px 5px 5px lightgrey;
 	-webkit-animation: breath 5s infinite; /* Chrome, Safari, Opera */
     animation: breath 5s infinite;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px lightgrey;
+	float: left;
+	margin-top: 100px;
+	padding-bottom: 20px;
+	padding-right:20px;
+	width: 100%;
 }
 
 /* Chrome, Safari, Opera */
@@ -162,12 +170,12 @@ ul a {
     50% {box-shadow: 10px 20px 30px #3F6931;}
 }
 
-footer {width: 100%;
-	  height: 200px;
-	  
-	  font-size: 4em;
-	  padding: 30px;
-	  }
+footer {
+	font-size: 4em;
+	height: 200px;
+	padding: 30px;
+	width: 100%;
+	}
 	  
 
 
@@ -177,7 +185,16 @@ footer {width: 100%;
 	font-family: 'Architects Daughter', cursive;
 	padding-left:100px;
 	padding-top: 70px;
-	  }
+	}
+	
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github {
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 20px;
+	text-decoration: none;
+}
 	  
 .zen-validate-css {
 	text-decoration: none;
@@ -185,23 +202,8 @@ footer {width: 100%;
 	padding-left: 20px;
 }
 
-.zen-license {
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-	padding-left: 20px;
-}
 
-.zen-accessibility {
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-	padding-left: 20px;
-}
 
-.zen-github {
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-	padding-left: 20px;
-}
 
 
 
