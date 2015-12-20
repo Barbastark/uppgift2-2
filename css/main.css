@@ -77,8 +77,26 @@ ul a {
 	 font-size: 1.2em;}
 .summary {
 	width: 100%;
+	margin-top: 60px;
+	
 	
 }
+
+.summary p {
+	color: #3F6931;
+	
+	font-weight: bold;
+	}
+.summary a {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	}
+.summary a::before {
+	content: url(../img/Button-Download-icon.png);
+	}
 
 .preamble,
 .main,
@@ -100,7 +118,7 @@ ul a {
 	position: absolute;
 	float:right;
     height: 750px;
-	top: 700px;
+	top: 750px;
     right: 15%;
     width: 25%;
     border: 1px solid lightgrey;
