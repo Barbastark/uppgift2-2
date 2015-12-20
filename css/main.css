@@ -52,12 +52,13 @@ header {
 	color: white;
 }
 
-p {color: grey;}
+ p {color: grey;}
 
 h1, h2, h3 {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 1.8em;
-	color: #3F6931;}
+	color: #3F6931;
+	}
 
 a {color: darkred;}
 
@@ -76,42 +77,35 @@ ul a {
 	 font-size: 1.2em;}
 .summary {
 	width: 100%;
-}
-
-.preamble {
-	width: 70%;
 	
 }
 
-.main supporting {
-	width: 70%;
-}
-
+.preamble,
+.main,
+.participation,
+.benefits,
+.requirements,
 .explanation {
-	width:70%;
-}
-
-.participation {
-	width:70%;
-}
-
-.benefits {
-	width:70%;
-}
-
-.requirements {
-	width:70%;
+	width:67%;
+	background-color: #fff;
+	border: 1px solid lightgrey;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px lightgrey; 
+	margin-top: 20px;
 }
 
 .wrapper {
+	background-color: #fff;
 	position: absolute;
+	float:right;
     height: 750px;
 	top: 700px;
     right: 15%;
     width: 25%;
     border: 1px solid lightgrey;
 	max-width:250px;
-	border-radius: 10px;
+	border-radius: 5px;
 	padding-right:20px;
 	padding-bottom: 20px;
 	box-shadow: 5px 5px 5px lightgrey;
@@ -126,7 +120,7 @@ ul a {
 }
 
 .zen-resources {
-	
+	float: left;
 	border: 1px solid lightgrey;
 	margin-top: 100px;
 	border-radius: 10px;
