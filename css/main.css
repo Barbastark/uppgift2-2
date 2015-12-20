@@ -148,6 +148,47 @@ ul a {
     50% {box-shadow: 10px 20px 30px #3F6931;}
 }
 
+footer {width: 100%;
+	  height: 200px;
+	  
+	  font-size: 4em;
+	  padding: 30px;
+	  }
+	  
+
+
+.zen-validate-html {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	padding-left:100px;
+	padding-top: 70px;
+	  }
+	  
+.zen-validate-css {
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 20px;
+}
+
+.zen-license {
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 20px;
+}
+
+.zen-accessibility {
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 20px;
+}
+
+.zen-github {
+	text-decoration: none;
+	font-family: 'Architects Daughter', cursive;
+	padding-left: 20px;
+}
+
 
 
 
