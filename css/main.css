@@ -127,7 +127,6 @@ ul a {
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px lightgrey;
-	
 	height: 750px;
 	max-width:250px;
 	padding-bottom: 20px;
@@ -150,7 +149,6 @@ ul a {
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px lightgrey;
-	
 	margin-top: 100px;
 	padding-bottom: 20px;
 	padding-right:20px;
@@ -176,29 +174,16 @@ footer {
 	padding-top: 120px;
 	width:100%;
 	}
+
 footer a {
 	color: #fff;
-	
-}
-
-.zen-validate-html,	
-.zen-validate-css,
-.zen-license,
-.zen-accessibility,
-.zen-github {
 	font-family: 'Architects Daughter', cursive;
 	padding-left: 5%;
 	text-decoration: none;
-	
 }
 
-.zen-validate-html,	
-.zen-validate-css,
-.zen-license,
-.zen-accessibility,
-.zen-github, a:hover {
-	color: white;
-	
+footer a:hover {
+	color:darkred;
 }
 
 @media screen and (max-width: 1500px) {
