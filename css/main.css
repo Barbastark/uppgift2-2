@@ -18,13 +18,10 @@ abbr[title] {
 	background-color: #fff;
 	line-height: 1.5em;
 	margin:0 auto;
-	min-width: 960px;
 	width: 70%;
 }
 
 header {
-	
-	
 	background-image: -webkit-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
 					 ,url(../img/Untitled.jpg);
 	background-image: -moz-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
@@ -84,7 +81,7 @@ ul a {
 	font-size: 1.2em;
 	margin-bottom: 50px;
 	text-decoration: none;
-	}
+}
 	 
 .summary {
 	margin-top: 60px;
@@ -94,7 +91,7 @@ ul a {
 .summary p {
 	color: #3F6931;
 	font-weight: bold;
-	}
+}
 	
 .summary a {
 	display: inline-block;
@@ -102,12 +99,11 @@ ul a {
 	font-weight: normal;
 	text-align: center;
 	text-decoration: none;
-	
-	}
+}
 	
 .summary a::before {
 	content: url(../img/Button-Download-icon.png);
-	}
+}
 
 .preamble,
 .main,
@@ -131,7 +127,7 @@ ul a {
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px lightgrey;
-	float:right;
+	
 	height: 750px;
 	max-width:250px;
 	padding-bottom: 20px;
@@ -150,10 +146,11 @@ ul a {
 .zen-resources {
 	-webkit-animation: breath 5s infinite; /* Chrome, Safari, Opera */
     animation: breath 5s infinite;
+	background-color: #fff;
 	border: 1px solid lightgrey;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: 5px 5px 5px lightgrey;
-	float: left;
+	
 	margin-top: 100px;
 	padding-bottom: 20px;
 	padding-right:20px;
@@ -171,36 +168,48 @@ ul a {
 }
 
 footer {
+	background-color:#3F6931;
+	border-radius: 5px 5px 0 0;
 	font-size: 4em;
-	height: 200px;
-	padding: 30px;
-	width: 100%;
+	height: 150px;
+	margin-top:40px;
+	padding-top: 120px;
+	width:100%;
 	}
-	  
-
-
-.zen-validate-html {
-	display: inline-block;
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-	padding-left:100px;
-	padding-top: 70px;
-	}
+footer a {
+	color: #fff;
 	
+}
+
+.zen-validate-html,	
 .zen-validate-css,
 .zen-license,
 .zen-accessibility,
 .zen-github {
 	font-family: 'Architects Daughter', cursive;
-	padding-left: 20px;
+	padding-left: 5%;
 	text-decoration: none;
+	
 }
-	  
-.zen-validate-css {
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-	padding-left: 20px;
+
+.zen-validate-html,	
+.zen-validate-css,
+.zen-license,
+.zen-accessibility,
+.zen-github, a:hover {
+	color: white;
+	
 }
+
+@media screen and (max-width: 1500px) {
+    .page-wrapper {
+        width: 98%;
+    }	
+	.wrapper{
+		right: 1%;
+	}
+}	
+
 
 
 
