@@ -47,8 +47,6 @@ header {
 	font-size: 5em;
 	padding-left: 8%;
 	text-shadow: 4px 2px 4px #fff;
-	
-	
 }
 
 .intro h2 {
@@ -103,21 +101,33 @@ ul a {
 	
 .summary a::before {
 	content: url(../img/Button-Download-icon.png);
+	padding: 5px;
 }
 
-.preamble,
-.main,
-.participation,
-.benefits,
-.requirements,
-.explanation {
+.preamble {
 	background-color: #fff;
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px lightgrey;
 	margin-top: 20px;
 	padding: 20px;
-	width:67%;
+	width:70%;
+}
+.main {
+	width: 70%;
+}
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+	background-color: #fff;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px lightgrey;
+	margin-top: 20px;
+	padding: 20px;
+	width:100%;
 }
 
 .wrapper {
@@ -169,9 +179,11 @@ footer {
 	background-color:#3F6931;
 	border-radius: 5px 5px 0 0;
 	font-size: 4em;
-	height: 150px;
+	height: 100px;
 	margin-top:40px;
-	padding-top: 120px;
+	padding-top: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
 	width:100%;
 	}
 
@@ -188,11 +200,30 @@ footer a:hover {
 
 @media screen and (max-width: 1500px) {
     .page-wrapper {
-        width: 98%;
+        width: 100%;
     }	
 	.wrapper{
 		right: 1%;
 	}
+	header {
+	background-image: -webkit-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-image: -moz-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-image: -o-linear-gradient(bottom, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-image: linear-gradient(to top, white, rgba(255,255,255,1.0) 0%,rgba(255,255,255,0.1) 100% )
+					 ,url(../img/Untitled.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0 0 0 0;
+	border-top: 0;
+	color:white;
+	height:500px;
+	margin-top: 0;
+	padding-top: 80px;
+	}
+	
 }	
 
 
